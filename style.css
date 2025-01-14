@@ -480,8 +480,8 @@ html {
     
     word-spacing: 2px;
     margin: 8PX 0;
-    padding: 10px 20px;
-    color: crimson;
+    padding: 10px 10px;
+
 }
 .welcome  p{
     color: darkblue;
@@ -629,7 +629,7 @@ html {
 
 
 h1{
-    color: crimson;
+    color: darkblue;
     text-align: center;
     margin: 5px 0;
 }
@@ -799,12 +799,11 @@ h1{
     font-family: 'Arial', sans-serif;
     text-align: center;
     padding: 0 15px;
-    color: crimson;
+    
 } 
 
 .one-day-camp p{
     font-family: 'Arial', sans-serif;
-    font-size: 16px;
     text-align: center;
     padding: 0 10px;
     color: darkblue;
@@ -858,7 +857,7 @@ h1{
     width: 90%;
     margin: 8px auto 50px; 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 20px
     
 }
@@ -874,8 +873,8 @@ h1{
     
 }
 .gallery-img img:hover{
-    transform: scale(0.8) rotate(-5deg);
-    border-radius: 10px;
+    transform: scale(0.6) rotate(-4deg);
+    border-radius: 5px;
     box-shadow: 0 32px 75px rgb(7, 109, 95);
     transition: 0.5s;
 }
