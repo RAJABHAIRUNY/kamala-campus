@@ -595,22 +595,6 @@ html {
 }
 
 
-@media (max-width: 1024px){
-
-    
-.card-container .box-container{
-
-    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
-    
-}
-
-
-    
-}
-
-
-
-
 
 
 
