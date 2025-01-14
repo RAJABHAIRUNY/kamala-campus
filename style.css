@@ -505,7 +505,7 @@ html {
     
 }
 
-
+/*
 @media (max-width: 768px){
 
     .welcome    h1{
@@ -565,7 +565,6 @@ html {
 
 .card-container .box-container .box h1{
     color: darkblue;
-    font-size: 18px;
     padding: 6px 0;
 
 }
@@ -573,7 +572,6 @@ html {
 
 .card-container .box-container .box h2{
     color: darkblue;
-    font-size: 16px;
     padding: 6px 0;
 
 }
@@ -581,7 +579,6 @@ html {
 
 .card-container .box-container .box p{
     color: darkblue;
-    font-size: 13px;
     padding: 8px 0;
     line-height: 1.5;
     text-align: left;
