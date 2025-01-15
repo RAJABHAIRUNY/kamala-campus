@@ -432,7 +432,7 @@ html {
 
 .to-top{
     color: darkblue;
-    background: whitesmoke;
+    background: rgb(216, 214, 214);
     text-decoration: none;
     border: 2px solid darkblue;
     border-radius: 50%;
@@ -1242,6 +1242,7 @@ iframe{
 
 
 .form-group {
+    padding: 1px;
  }
  
  label {
