@@ -495,10 +495,10 @@ html {
 .btn{
 
     font-size: 15px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1px solid darkblue;
+    border-radius: 2px;
     text-decoration: none;
-    color: crimson;
+    color: darkblue;
     padding: 3px 5px ;
     margin-top: 15px;
     background-color: whitesmoke;
@@ -545,7 +545,7 @@ html {
 
 .card-container .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 2fr));
     gap: 4px;
 }
 
