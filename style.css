@@ -1056,7 +1056,7 @@ border-radius: 5px;
 @media screen and (max-width: 768px) {
 
     .card-wrapper{
-        margin: 0 40px 25px;
+        margin: 0 40px 0px;
     }
     /*
     .card-wrapper .swiper-slide-button{
