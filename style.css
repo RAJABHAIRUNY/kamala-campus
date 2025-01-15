@@ -1125,10 +1125,8 @@ border-radius: 5px;
 
  .container_a{
     width: 45%;
-    margin: 3% 3%; 
     color: darkblue;
-    font-size: 14px;
-    padding: 10px;
+    padding: 0 20px 10px;
     
 
 }
@@ -1163,54 +1161,20 @@ border-radius: 5px;
 
 /*content--container--end--*/
 
-/*--time--schedule--starts--ss */
-
-.container_b{
-    position: relative;
-    width: 45%;
-    padding: 10px;
-    background: transparent;
-    color: darkblue;
-    font-size: 12px;
-}
-
-
- .container_b .table{
-    width: 100%;
-    box-shadow: 3px 1px 3px 2px;
-    border-radius: 5px;
-    background: transparent;
-}
-
-table, td, th{
-    padding: 6px;
-    text-align: center;
-    font-size: 12px;
-}
-
-
-
-
-
 
 /* ---map---- */
 .container_c{
     position: relative;
     width: 45%;
-    padding: 5px;
-    margin-left: 3px;
-    background-color: transparent; 
     color: darkblue;  
-    
-
+    padding: 0 20px 10px;
 }
 
 iframe{
     position: relative;
     width: 100%;  
-    height: 270px;
+    height: 240px;
     border-radius: 4px;
-    padding: 2px;
 }
 
 /*--map containere--end---*/
@@ -1220,16 +1184,11 @@ iframe{
 
 .container_d{
     display: inline-block;
-    margin: 10px;
-    padding: 10px;
     color: darkblue;
-   
     width: 45%;
-    font-size: 12px;
+    padding: 0 20px 10px;
     font-family: Arial, sans-serif;
-
-
-    
+   
 }
 .container_d .info{
     position: relative;
@@ -1275,6 +1234,69 @@ iframe{
     
 }
 
+
+
+
+
+
+
+
+.form-group {
+ }
+ 
+ label {
+     font-size: 1em;
+     color: darkblue;
+ }
+ 
+ input, textarea {
+     width: 100%;
+     padding: 5px;
+     margin-top: 1px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     font-size: 1em;
+     background: whitesmoke;
+ }
+ 
+ button {
+     width: 100%;
+     padding: 1px;
+     background-color: #adf9af;
+     color: darkblue;
+     font-size: 1.2em;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ button:hover {
+     background-color: #45a049;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /*send us sms end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    .copyrightText {
     width: 100%;
     position: relative;
@@ -1314,7 +1336,7 @@ iframe{
    iframe{
     
     width: 100%;
-    height: 280px;
+    height: 240px;
     }
 
     .container_d{
