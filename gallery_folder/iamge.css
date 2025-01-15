@@ -56,11 +56,11 @@ body{
 
 
 .img-gallery{
-    width: 80%;
-    margin: 100px auto 50px; 
+    width: 95%;
+    margin: 30px auto 30px; 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 10px
     
 }
 
@@ -70,13 +70,13 @@ body{
     background-size: cover;
     position: relative;
     cursor: pointer;
-    border: 5px solid  #ffffff;
-    border-radius: 20px;
+    border: 2px solid  #ffffff;
+    border-radius: 5px;
     
 }
 .img-gallery img:hover{
     transform: scale(0.8) rotate(-5deg);
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0 32px 75px rgb(7, 109, 95);
     transition: 0.5s;
 }
