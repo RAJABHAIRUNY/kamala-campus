@@ -431,9 +431,10 @@ html {
 }
 
 .to-top{
-    color: black;
-    background: rgb(34, 162, 242);
+    color: darkblue;
+    background: whitesmoke;
     text-decoration: none;
+    border: 2px solid darkblue;
     border-radius: 50%;
     position: fixed;
     bottom: 10px;
@@ -450,7 +451,7 @@ html {
     transition: all .4s;
 }
 .to-top.active{
-    bottom: 32px;
+    bottom: 10px;
     pointer-events: all;
 
     opacity: 1;
@@ -1277,16 +1278,15 @@ iframe{
     
 }
 
-
    .copyrightText {
     width: 100%;
     position: relative;
     background: rgb(216, 214, 214);
     text-align: center;
     font-size: 14px;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 2px;
 
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 2px;
 }
 .copyrightText p{
     font-size: 12px;
