@@ -1033,7 +1033,7 @@ border-radius: 5px;
  .container_a{
     width: 45%;
     color: darkblue;
-    padding: 0 20px 10px;
+    padding: 0 20px 0px;
     
 
 }
@@ -1163,7 +1163,7 @@ iframe{
  
  button {
      width: 100%;
-     padding: 1px;
+     padding: 5px;
      background-color: #adf9af;
      color: darkblue;
      font-size: 1.2em;
@@ -1219,17 +1219,17 @@ iframe{
  @media (max-width: 768px){
      .container_a  {
         position: relative;
-        width: 95%;
+        width: 100%;
     }
 
     .container_b{
         position: relative;
-        width: 95%;
+        width: 100%;
     }
 
    .container_c{
     position: relative;
-    width: 95%;
+    width: 100%;
     
     background-color: transparent;
     
@@ -1242,7 +1242,7 @@ iframe{
     }
 
     .container_d{
-        width: 95%;
+        width: 100%;
     }
 
 
