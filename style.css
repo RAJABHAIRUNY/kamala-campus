@@ -492,7 +492,22 @@ html {
 }
 p{
     text-align: justify;
+    color: darkblue;
 }
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+
+
+h2{
+    text-align: center;
+    color: darkblue;
+}
+
+
 
 .btn{
 
@@ -516,8 +531,7 @@ p{
 
 .card-container{
 
-    background-color: white;
-    color: royalblue; 
+    background-color: white; 
     padding: 10px;
 }
 
@@ -541,7 +555,7 @@ p{
     border: 1px solid darkblue;
     border-radius: 5px;
 }
-
+/*
 .card-container .box-container .box h1{
     color: darkblue;
     padding: 6px 0;
@@ -563,6 +577,7 @@ p{
     text-align: justify;
 
 }
+    */
 
 @media (max-width:768px){
     .card-container{
@@ -594,33 +609,6 @@ p{
 
 
 /*about_gosainkunda_4th_pages
-
-
-.principal{
-    text-align: center;
-    width: 100%;
-    height: auto;
-    margin:  10px;
-    padding:  10px;
-    position: relative;
-
-}
-
-
-
-h1{
-    color: darkblue;
-    text-align: center;
-    margin: 5px 0;
-}
-    
-
-.principal  p{
-    color: darkblue;
-    font-size: 15px; 
-    
-    padding: 0 20px;
-}
 
 
 
