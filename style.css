@@ -81,10 +81,10 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    margin-inline: 6px;
+    margin-inline: 4px;
     color: darkblue;
-    font-size: 13px;
-    margin-right: 20px;
+    font-size: 15px;
+    margin-right: 15px;
 
     
     
@@ -123,6 +123,7 @@ nav ul li a{
         position: absolute;
         width: 100%;
         height: 300px;
+        font-size: 17px;
         text-align: center;
         line-height: 8px;
         padding: 0;
