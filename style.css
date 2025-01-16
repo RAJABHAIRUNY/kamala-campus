@@ -1021,10 +1021,12 @@ border-radius: 5px;
     flex-wrap: wrap;
     flex-direction: row;
     font-family:  sans-serif;
-
     background-position: center;
     background-size: cover;
 
+}
+.footer_container h2{
+    text-align: left;
 }
 /*--content container--*/
 
