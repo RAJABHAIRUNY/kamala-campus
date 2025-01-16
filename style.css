@@ -472,7 +472,7 @@ html {
     word-spacing: 5px;
     
 }
-
+/*
 
 .welcome    h1{
     
@@ -490,13 +490,16 @@ html {
     padding: 10PX 10PX;
     
 }
+    */
 p{
     text-align: justify;
+    padding: 5px;
     color: darkblue;
 }
 
 h1{
     text-align: center;
+    padding: 5px;
     color: darkblue;
 }
 
@@ -504,6 +507,7 @@ h1{
 
 h2{
     text-align: center;
+    padding: 5px;
     color: darkblue;
 }
 
@@ -540,7 +544,7 @@ h2{
 .card-container .box-container{
     width: 100%;
     color: darkblue;
-    padding: 10px 0 10px;
+    padding: 10px 5px 10px;
     align-items: center;
     justify-content: center;
     font-size: 15px;
@@ -552,16 +556,18 @@ h2{
 
 .card-container .box-container .box{
    
-    border-radius: 5px;
-    background: #fff;
+    border-radius: 3px;
+
+    background: rgb(232, 232, 234);
     text-align: center;
     padding: 5px 5px;
+
 }
 
 .card-container .box-container .box img{
     height: 160px;
     border: 1px solid darkblue;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 @media (max-width:768px){
@@ -573,7 +579,7 @@ h2{
  .box-container{
     width: 100%;
     color: darkblue;
-    padding: 10px 0 10px;
+    padding: 10px 5px 10px;
     align-items: center;
     justify-content: center;
     font-size: 15px;
