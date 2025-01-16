@@ -291,7 +291,11 @@ nav h1{
 
 
 
-@media (max-width:1600px){
+@media (max-width: 1600px) and
+       (min-height :700px)
+
+
+       {
     
     .slideshow-container {
         display: flex;
@@ -321,42 +325,10 @@ nav h1{
         height: 30vh;
         display: block;
     }
-    
-        /*
-    .slideshow-container .prevp{
-    
-        top: 20%;
-        
-    }
-    
-    .slideshow-container .nextn{
-    
-        top: 20%;
-        
-    }
-        */
+
     }
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
