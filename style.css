@@ -466,8 +466,8 @@ html {
 .welcome {
     width: 100%;
     display: block;
-    text-align: center;
     margin-bottom: 0%;
+    text-align: center;
     background-color: whitesmoke;
     word-spacing: 5px;
     
@@ -484,10 +484,14 @@ html {
 .welcome  p{
     color: darkblue;
     font-size: 15px;
+    text-align: justify;
     line-height: 20PX;
     margin: auto;
     padding: 10PX 10PX;
     
+}
+p{
+    text-align: justify;
 }
 
 .btn{
@@ -502,29 +506,6 @@ html {
 
     
 }
-
-/*
-@media (max-width: 768px){
-
-    .welcome    h1{
-        word-spacing: 5px;
-        margin: 8px 0;
-        padding: 0px 20px;
-        color: crimson;
-        font-size: 14px;
-    }
-    p{
-        color: darkblue;
-        font-size: 15px;
-        line-height: 22PX;
-        margin: auto;
-        padding: 5PX 5PX;   
-    }  
-}
-
-
-/*principal profile */
-
 
 
 
@@ -579,7 +560,7 @@ html {
     color: darkblue;
     padding: 8px 0;
     line-height: 1.5;
-    text-align: left;
+    text-align: justify;
 
 }
 
@@ -636,7 +617,7 @@ h1{
 .principal  p{
     color: darkblue;
     font-size: 15px; 
-    text-align: left;
+    
     padding: 0 20px;
 }
 
@@ -918,29 +899,16 @@ h1{
     margin: 5px 0px;
     
 }
-/*
-.student-say h1{
-    text-align: center;
-    justify-content: center;
-   
-    margin: 5px 0px;
-    
-}
 
-*/
 
 .container{
     position: relative;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
-    /*
+    min-height: 80vh;  
     background: linear-gradient(#9ad7ef, #5eb9fa);
-
-*/
-background: transparent;
+    background: transparent;
 
 
 }
@@ -993,14 +961,14 @@ border-radius: 5px;
 
 }
 .card-list .card-link .badge{
-    color: #3729f8;
+    color: darkblue;
     padding: 8px 8px;
-    font-size: 0.95rem;
-    font-weight: 500;
     margin: 5px 0px 5px;
-    background: #e8e9ee;
+    background: #eceef4;
     width: fit-content;
-    border-radius: 5px;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+
 
 }
 .card-list .card-link .card-title{
