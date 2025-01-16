@@ -686,9 +686,9 @@ h2{
 
 .facility img{
   
-  width: 300px;
+  width: 320px;
   height: 200px;
-  border-radius: 3px;
+  border-radius: 2px;
   object-fit: cover;
   background-position: center;
 }
@@ -698,6 +698,7 @@ h2{
 }
 
 .facility p{
+    padding: 0px 10px 0px;
   font-size: 15px;
 }
 
