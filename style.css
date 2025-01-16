@@ -771,8 +771,8 @@ h2{
 
 
 .gallery-img{
-    width: 90%;
-    margin: 8px auto 50px; 
+    width: 98%;
+    margin: 8px auto 10px; 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 20px
@@ -807,7 +807,7 @@ h2{
     .gallery-main img{
         
         height: auto;
-        margin: 10px;
+        margin: 10px 0px 5px;
         max-width: 350px;
     
     }
@@ -834,7 +834,7 @@ h2{
     position: relative;
     width: 100%;
     height: auto;
-    margin: 5px 0px;
+    margin: 0px 0px;
     
 }
 
