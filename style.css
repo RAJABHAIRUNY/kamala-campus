@@ -978,7 +978,7 @@ border-radius: 5px;
 @media screen and (max-width: 1600px) {
 
     .container{
-        min-height: 50vh;
+        min-height: 30vh;
     }
 
     .card-wrapper{
