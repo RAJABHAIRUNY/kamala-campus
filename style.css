@@ -966,6 +966,24 @@ border-radius: 5px;
     .card-wrapper{
         margin: 0px 3px 0px;
     }
+   /* 
+    .card-wrapper .swiper-slide-button{
+        
+    display: none;
+    }
+    */
+}
+
+
+@media screen and (max-width: 1600px) {
+
+    .container{
+        min-height: 50vh;
+    }
+
+    .card-wrapper{
+        margin: 0px 3px 0px;
+    }
     
     .card-wrapper .swiper-slide-button{
         
