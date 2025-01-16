@@ -1271,6 +1271,7 @@ iframe{
 }
 .copyrightText p{
     text-align: center;
+    font-size: 13px;
     padding: 15px;
     color: darkblue;
 }
