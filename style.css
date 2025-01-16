@@ -1265,13 +1265,12 @@ iframe{
     position: relative;
     background: rgb(216, 214, 214);
     text-align: center;
-    font-size: 14px;
     border-bottom-right-radius: 2px;
 
     border-bottom-left-radius: 2px;
 }
 .copyrightText p{
-    font-size: 12px;
+    text-align: center;
     padding: 15px;
     color: darkblue;
 }
