@@ -16,7 +16,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-top: 0%;
-    background: rgb(216, 214, 214);
+    background: rgb(252, 253, 253);
     position: relative;
     border-top-right-radius: 2px;
     border-top-left-radius: 2px;
@@ -129,8 +129,9 @@ nav ul li a{
         gap: 10px;
         top: 70px;
         color: darkblue;
-        background: whitesmoke;
+        background: rgb(226, 246, 251);
         z-index: 100;
+
         border-bottom-right-radius: 3px;
         border-bottom-left-radius: 3px;
         animation: slideInFromtop 1s ease-out;
@@ -473,25 +474,7 @@ html {
     padding: 10px 15px;
     
 }
-/*
 
-.welcome    h1{
-    
-    word-spacing: 2px;
-    margin: 8PX 0;
-    padding: 10px 10px;
-
-}
-.welcome  p{
-    color: darkblue;
-    font-size: 15px;
-    text-align: justify;
-    line-height: 20PX;
-    margin: auto;
-    padding: 10PX 10PX;
-    
-}
-    */
 p{
     text-align: justify;
     padding: 5px;
